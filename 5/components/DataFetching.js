@@ -22,7 +22,7 @@ function DataFetching() {
     return (
         <div>
             <input type="text" value={hello} onChange={e=> setHello(e.target.value)}  />
-            <button type='button' onClick={handleClick}> Fetch Post</button>
+            <button type='button' onClick={handleClick}> Input a word to Fetch Rty</button>
 
             <ul>
                 {
